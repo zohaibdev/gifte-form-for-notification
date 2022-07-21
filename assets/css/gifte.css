@@ -1,0 +1,90 @@
+.gifte-form-block {
+    margin: 50px 0;
+}
+
+.gifte-form-block form {
+    padding: 60px;
+    background: #f8fafc;
+    box-shadow: 0 40px 80px hsl(0deg 0% 0% / 5%);
+}
+
+.gifte-form-block .form-block label {
+    display: block;
+}
+
+.gifte-form-block .form-block {
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+    position: relative;
+    width: 100%;
+
+}
+
+.gifte-form-block .content-box h3 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.gifte-form-block .row {
+    margin: 0 -15px;
+}
+
+.gifte-form-block .row > div {
+    padding: 0 15px;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea, select {
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    height: 45px;
+}
+
+.form-sle {
+    display: flex;
+    gap: 10px;
+}
+
+.gifte-form-block .action button {
+    width: 100%;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #3730a3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.gifte-form-block .form-block label.error {
+    position: absolute;
+    bottom: 5px;
+    line-height: 1;
+    font-size: 13px;
+    color: red;
+}
+
+.woocommerce-MyAccount-content .gifte-form-block form {
+    padding: 15px;
+    margin: 0 !important;
+}
+
+.woocommerce-MyAccount-content .gifte-form-block {
+    margin: 0 !IMPORTANT;
+}
+
+.woocommerce-MyAccount-content .gifte-form-block .container {
+    width: 100%;
+}
+
+
+.checkbox-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.checkbox-list .form-sle {
+    flex-basis: 50%;
+}
